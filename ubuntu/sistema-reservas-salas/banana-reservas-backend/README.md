@@ -251,11 +251,7 @@ Este projeto foi desenvolvido como parte de um teste técnico. Para contribuiç�
 
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-## 📞 Contato
-
 Desenvolvido como parte do teste técnico para Desenvolvedor FullStack.
-
----
 
 **Nota**: Este é um projeto de demonstração desenvolvido para fins de avaliação técnica.
 
