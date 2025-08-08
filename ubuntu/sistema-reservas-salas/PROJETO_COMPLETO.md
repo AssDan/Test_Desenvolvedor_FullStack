@@ -255,8 +255,8 @@ curl -X POST http://localhost:5001/api/reservas \
   -d '{
     "local": "Filial Centro",
     "sala": "Sala A",
-    "data_inicio": "2025-08-08T09:30:00",
-    "data_fim": "2025-08-08T10:30:00",
+    "data_inicio": "2025-08-05-18:30:00",
+    "data_fim": "2025-08-10-14:30:00",
     "responsavel": "Teste"
   }'
 # Deve retornar erro 409 se houver conflito
@@ -299,7 +299,6 @@ DATABASE_URL = "postgresql://user:pass@localhost/dbname"
 - **Linhas de código Frontend**: ~600 linhas
 - **Componentes React**: 3 principais
 - **Endpoints API**: 8 endpoints
-- **Tempo de desenvolvimento**: ~8 horas
 - **Cobertura de requisitos**: 100%
 
 ## 🎯 Diferenciais Implementados
@@ -361,8 +360,8 @@ Este projeto foi desenvolvido como parte do teste técnico para a posição de *
 - **Status**: Completo e funcional
 
 ### Repositórios
-- **Backend**: [URL do repositório backend]
-- **Frontend**: [URL do repositório frontend]
+- **Backend**: (https://github.com/AssDan/Test_Desenvolvedor_FullStack.git)
+- **Frontend**: (https://github.com/AssDan/Test_Desenvolvedor_FullStack.git)
 
 ---
 

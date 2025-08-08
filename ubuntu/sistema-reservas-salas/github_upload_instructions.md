@@ -10,34 +10,34 @@ Esta é a opção mais simples se você não tem familiaridade com comandos Git.
 
 1.  **Crie um novo repositório no GitHub:**
     *   Acesse [github.com/new](https://github.com/new).
-    *   Dê o nome `banana-reservas-backend` ao repositório.
+    *   Dê o nome `******` ao repositório.
     *   Escolha se deseja que seja público ou privado.
     *   **Não** inicialize o repositório com README, .gitignore ou licença (faremos isso manualmente).
     *   Clique em "Create repository".
 
 2.  **Baixe o projeto Backend:**
-    *   Você já possui a pasta `banana-reservas-backend` gerada por mim. Certifique-se de que ela está completa com todos os arquivos.
+    *   Você já possui a pasta `*******` gerada por mim. Certifique-se de que ela está completa com todos os arquivos.
 
 3.  **Faça o upload dos arquivos:**
     *   No seu novo repositório no GitHub, clique no botão "Add file" e depois em "Upload files".
-    *   Arraste e solte **todo o conteúdo** da pasta `banana-reservas-backend` (incluindo subpastas como `src`, `venv`, `database`, `requirements.txt`, `README.md`, etc.) para a área de upload.
+    *   Arraste e solte **todo o conteúdo** da pasta `******` (incluindo subpastas como `src`, `venv`, `database`, `requirements.txt`, `README.md`, etc.) para a área de upload.
     *   Role para baixo e clique em "Commit changes".
 
 ### Para o Frontend (`banana-reservas-frontend`):
 
 1.  **Crie um novo repositório no GitHub:**
     *   Acesse [github.com/new](https://github.com/new).
-    *   Dê o nome `banana-reservas-frontend` ao repositório.
+    *   Dê o nome `*****` ao repositório.
     *   Escolha se deseja que seja público ou privado.
     *   **Não** inicialize o repositório com README, .gitignore ou licença.
     *   Clique em "Create repository".
 
 2.  **Baixe o projeto Frontend:**
-    *   Você já possui a pasta `banana-reservas-frontend` gerada por mim. Certifique-se de que ela está completa com todos os arquivos.
+    *   Você já possui a pasta `*****` gerada por mim. Certifique-se de que ela está completa com todos os arquivos.
 
 3.  **Faça o upload dos arquivos:**
     *   No seu novo repositório no GitHub, clique no botão "Add file" e depois em "Upload files".
-    *   Arraste e solte **todo o conteúdo** da pasta `banana-reservas-frontend` (incluindo subpastas como `public`, `src`, `node_modules`, `package.json`, `README.md`, etc.) para a área de upload.
+    *   Arraste e solte **todo o conteúdo** da pasta `*****` (incluindo subpastas como `public`, `src`, `node_modules`, `package.json`, `README.md`, etc.) para a área de upload.
     *   Role para baixo e clique em "Commit changes".
 
 ## Opção 2: Usando Comandos Git (Recomendado para Desenvolvedores)
@@ -52,17 +52,17 @@ Esta opção é mais eficiente e é a forma padrão de trabalhar com Git e GitHu
 
 1.  **Crie um novo repositório no GitHub:**
     *   Acesse [github.com/new](https://github.com/new).
-    *   Dê o nome `banana-reservas-backend` ao repositório.
+    *   Dê o nome `******` ao repositório.
     *   Escolha se deseja que seja público ou privado.
-    *   **Não** inicialize o repositório com README, .gitignore ou licença.
+    *   inicialize o repositório com README, .gitignore ou licença.
     *   Clique em "Create repository".
-    *   **Copie a URL do repositório** (ex: `https://github.com/seu-usuario/banana-reservas-backend.git`).
+    *   **Copie a URL do repositório** (ex: `https://github.com/AssDan/Test_Desenvolvedor_FullStack.git`).
 
 2.  **No seu terminal local, navegue até a pasta do projeto Backend:**
     ```bash
-    cd /caminho/para/banana-reservas-backend
+    cd /caminho/para/******
     ```
-    (Substitua `/caminho/para/` pelo caminho real onde você salvou a pasta `banana-reservas-backend`)
+    (Substitua `/caminho/para/` pelo caminho real onde você salvou a pasta `******`)
 
 3.  **Inicialize o repositório Git local e faça o primeiro commit:**
     ```bash
@@ -74,7 +74,7 @@ Esta opção é mais eficiente e é a forma padrão de trabalhar com Git e GitHu
 4.  **Conecte seu repositório local ao GitHub e faça o push:**
     ```bash
     git branch -M main
-    git remote add origin <URL_DO_SEU_REPOSITORIO_BACKEND>
+    git remote add origin < https://github.com/AssDan/Test_Desenvolvedor_FullStack.git>
     git push -u origin main
     ```
     (Substitua `<URL_DO_SEU_REPOSITORIO_BACKEND>` pela URL que você copiou no passo 1).
@@ -83,17 +83,17 @@ Esta opção é mais eficiente e é a forma padrão de trabalhar com Git e GitHu
 
 1.  **Crie um novo repositório no GitHub:**
     *   Acesse [github.com/new](https://github.com/new).
-    *   Dê o nome `banana-reservas-frontend` ao repositório.
+    *   Dê o nome `*****` ao repositório.
     *   Escolha se deseja que seja público ou privado.
-    *   **Não** inicialize o repositório com README, .gitignore ou licença.
+    *   inicialize o repositório com README, .gitignore ou licença.
     *   Clique em "Create repository".
-    *   **Copie a URL do repositório** (ex: `https://github.com/seu-usuario/banana-reservas-frontend.git`).
+    *   **Copie a URL do repositório** (ex: `https://github.com/AssDan/Test_Desenvolvedor_FullStack.git`).
 
 2.  **No seu terminal local, navegue até a pasta do projeto Frontend:**
     ```bash
-    cd /caminho/para/banana-reservas-frontend
+    cd /caminho/para/******
     ```
-    (Substitua `/caminho/para/` pelo caminho real onde você salvou a pasta `banana-reservas-frontend`)
+    (Substitua `/caminho/para/` pelo caminho real onde você salvou a pasta `*****`)
 
 3.  **Inicialize o repositório Git local e faça o primeiro commit:**
     ```bash
@@ -102,7 +102,7 @@ Esta opção é mais eficiente e é a forma padrão de trabalhar com Git e GitHu
     git commit -m "Initial commit: Frontend do sistema de reservas"
     ```
 
-4.  **Conecte seu repositório local ao GitHub e faça o push:**
+4.  **Conecte seu repositório local ao GitHub e faça o push:**ba
     ```bash
     git branch -M main
     git remote add origin <URL_DO_SEU_REPOSITORIO_FRONTEND>
@@ -111,6 +111,4 @@ Esta opção é mais eficiente e é a forma padrão de trabalhar com Git e GitHu
     (Substitua `<URL_DO_SEU_REPOSITORIO_FRONTEND>` pela URL que você copiou no passo 1).
 
 ---
-
-Se precisar de ajuda com qualquer um desses passos, me avise!
 

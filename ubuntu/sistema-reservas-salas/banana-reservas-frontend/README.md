@@ -157,17 +157,6 @@ A aplicação consome os seguintes endpoints da API:
 - Formulários adaptados para telas pequenas
 - Navegação simplificada
 
-## 🧪 Validações
-
-### Formulário de Reserva
-- **Local**: Obrigatório, texto não vazio
-- **Sala**: Obrigatório, texto não vazio
-- **Data/Hora Início**: Obrigatório, não pode ser no passado
-- **Data/Hora Fim**: Obrigatório, deve ser posterior ao início
-- **Responsável**: Obrigatório, texto não vazio
-- **Café**: Se marcado, quantidade de pessoas é obrigatória
-- **Quantidade de Pessoas**: Número positivo quando café solicitado
-
 ### Feedback Visual
 - Campos com erro destacados em vermelho
 - Mensagens de erro específicas
@@ -276,11 +265,7 @@ Este projeto foi desenvolvido como parte de um teste técnico. Para contribuiç�
 
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-## 📞 Contato
-
 Desenvolvido como parte do teste técnico para Desenvolvedor FullStack.
-
----
 
 **Nota**: Este é um projeto de demonstração desenvolvido para fins de avaliação técnica, seguindo as melhores práticas de desenvolvimento React e UX/UI modernas.
 
