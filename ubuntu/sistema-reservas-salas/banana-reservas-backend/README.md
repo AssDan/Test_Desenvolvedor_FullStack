@@ -176,10 +176,6 @@ http://localhost:5001/api
 
 ## 🔧 Configuração
 
-### Variáveis de Ambiente
-- `SECRET_KEY`: Chave secreta para sessões Flask
-- `DATABASE_URL`: URL de conexão com o banco de dados (padrão: SQLite local)
-
 ### CORS
 O CORS está configurado para aceitar requisições de qualquer origem durante o desenvolvimento. Para produção, configure adequadamente as origens permitidas.
 
@@ -233,9 +229,8 @@ curl -X DELETE http://localhost:5001/api/reservas/1
 Para deploy em produção:
 
 1. Configure um banco de dados PostgreSQL
-2. Defina as variáveis de ambiente apropriadas
-3. Use um servidor WSGI como Gunicorn
-4. Configure CORS para as origens específicas do frontend
+2. Use um servidor WSGI como Gunicorn
+3. Configure CORS para as origens específicas do frontend
 
 ## 👥 Contribuição
 
@@ -248,8 +243,6 @@ Este projeto foi desenvolvido como parte de um teste técnico. Para contribuiç�
 5. Abra um Pull Request
 
 ## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
 Desenvolvido como parte do teste técnico para Desenvolvedor FullStack.
 
