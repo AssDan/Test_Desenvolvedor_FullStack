@@ -200,21 +200,6 @@ pnpm run dev --host  # ou npm run dev -- --host
 
 ## 🔧 Configurações de Desenvolvimento
 
-### Variáveis de Ambiente
-
-**Backend (.env)**
-```env
-SECRET_KEY=sua-chave-secreta-aqui
-DATABASE_URL=sqlite:///src/database/app.db
-FLASK_ENV=development
-```
-
-**Frontend**
-```javascript
-// src/App.jsx
-const API_BASE_URL = 'http://localhost:5001/api'
-```
-
 ### CORS
 
 O backend está configurado para aceitar requisições de qualquer origem durante desenvolvimento:
@@ -259,7 +244,7 @@ curl -X POST http://localhost:5001/api/reservas \
     "data_fim": "2025-08-10-14:30:00",
     "responsavel": "Teste"
   }'
-# Deve retornar erro 409 se houver conflito
+
 ```
 
 ## 🚀 Deploy em Produção
@@ -360,8 +345,8 @@ Este projeto foi desenvolvido como parte do teste técnico para a posição de *
 - **Status**: Completo e funcional
 
 ### Repositórios
-- **Backend**: (https://github.com/AssDan/Test_Desenvolvedor_FullStack.git)
-- **Frontend**: (https://github.com/AssDan/Test_Desenvolvedor_FullStack.git)
+- **Backend**: (https://github.com/AssDan/Test_Desenvolvedor_FullStack/tree/main/ubuntu/sistema-reservas-salas/banana-reservas-backend)
+- **Frontend**: (https://github.com/AssDan/Test_Desenvolvedor_FullStack/tree/main/ubuntu/sistema-reservas-salas/banana-reservas-frontend)
 
 ---
 
