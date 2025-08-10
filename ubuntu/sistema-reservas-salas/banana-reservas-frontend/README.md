@@ -49,8 +49,6 @@ Este é o frontend do sistema de reserva de salas, desenvolvido como parte de um
 
 ```
 banana-reservas-frontend/
-├── public/
-│   └── favicon.ico         # Ícone da aplicação
 ├── src/
 │   ├── components/
 │   │   ├── ui/            # Componentes shadcn/ui
