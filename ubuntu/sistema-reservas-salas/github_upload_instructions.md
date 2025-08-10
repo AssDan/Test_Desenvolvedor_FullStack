@@ -12,7 +12,6 @@ Esta é a opção mais simples se você não tem familiaridade com comandos Git.
     *   Acesse [github.com/new](https://github.com/new).
     *   Dê o nome `******` ao repositório.
     *   Escolha se deseja que seja público ou privado.
-    *   **Não** inicialize o repositório com README, .gitignore ou licença (faremos isso manualmente).
     *   Clique em "Create repository".
 
 2.  **Baixe o projeto Backend:**
@@ -29,7 +28,6 @@ Esta é a opção mais simples se você não tem familiaridade com comandos Git.
     *   Acesse [github.com/new](https://github.com/new).
     *   Dê o nome `*****` ao repositório.
     *   Escolha se deseja que seja público ou privado.
-    *   **Não** inicialize o repositório com README, .gitignore ou licença.
     *   Clique em "Create repository".
 
 2.  **Baixe o projeto Frontend:**
@@ -54,7 +52,6 @@ Esta opção é mais eficiente e é a forma padrão de trabalhar com Git e GitHu
     *   Acesse [github.com/new](https://github.com/new).
     *   Dê o nome `******` ao repositório.
     *   Escolha se deseja que seja público ou privado.
-    *   inicialize o repositório com README, .gitignore ou licença.
     *   Clique em "Create repository".
     *   **Copie a URL do repositório** (ex: `https://github.com/AssDan/Test_Desenvolvedor_FullStack.git`).
 
@@ -85,7 +82,6 @@ Esta opção é mais eficiente e é a forma padrão de trabalhar com Git e GitHu
     *   Acesse [github.com/new](https://github.com/new).
     *   Dê o nome `*****` ao repositório.
     *   Escolha se deseja que seja público ou privado.
-    *   inicialize o repositório com README, .gitignore ou licença.
     *   Clique em "Create repository".
     *   **Copie a URL do repositório** (ex: `https://github.com/AssDan/Test_Desenvolvedor_FullStack.git`).
 
@@ -102,7 +98,7 @@ Esta opção é mais eficiente e é a forma padrão de trabalhar com Git e GitHu
     git commit -m "Initial commit: Frontend do sistema de reservas"
     ```
 
-4.  **Conecte seu repositório local ao GitHub e faça o push:**ba
+4.  **Conecte seu repositório local ao GitHub e faça o push:**
     ```bash
     git branch -M main
     git remote add origin <URL_DO_SEU_REPOSITORIO_FRONTEND>
